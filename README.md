@@ -22,8 +22,8 @@ Aplikasi sederhana ini dibuat untuk memenuhi Tugas Akhir mata kuliah Kecerdasan 
 
 | Nama | NPM |
 |---|---|
-| Aldi Wijaya | 2410631170004 |
 | Muhammad Arif Wicaksono | 2410631170034 |
+| Aldi Wijaya | 2410631170004 |
 
 ---
 
