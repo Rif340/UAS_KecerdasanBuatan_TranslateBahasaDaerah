@@ -7,11 +7,11 @@ Aplikasi ini dirancang sebagai platform terpadu untuk pengolahan bahasa daerah (
 
 ## 👤 Identitas Pengembang
 * **Pengembang 1:**
-  * **Nama:** Aldi Wijaya
-  * **NPM:** 2410631170004
-* **Pengembang 2:**
   * **Nama:** Muhammad Arif Wicaksono
   * **NPM:** 2410631170034
+* **Pengembang 2:**
+  * **Nama:** Aldi Wijaya
+  * **NPM:** 2410631170004
 * **Program Studi:** Teknik Informatika
 * **Tautan Web Aplikasi:** [https://uas-kecerdasanbuatan-translatebahasadaerah.streamlit.app/](https://uas-kecerdasanbuatan-translatebahasadaerah.streamlit.app/)
 
