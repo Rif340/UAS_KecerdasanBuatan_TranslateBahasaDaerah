@@ -6,8 +6,12 @@
 Aplikasi ini dirancang sebagai platform terpadu untuk pengolahan bahasa daerah (*Integrated Linguistic Tools*), yang mencakup penerjemahan multi-bahasa, analisis kelas kata (*POS Tagging*), serta transkripsi audio/video.
 
 ## 👤 Identitas Pengembang
-* **Nama:** Muhammad Arif Wicaksono
-* **NPM:** 2410631170034
+* **Pengembang 1:**
+  * **Nama:** Aldi Wijaya
+  * **NPM:** 2410631170004
+* **Pengembang 2:**
+  * **Nama:** Muhammad Arif Wicaksono
+  * **NPM:** 2410631170034
 * **Program Studi:** Teknik Informatika
 * **Tautan Web Aplikasi:** [https://uas-kecerdasanbuatan-translatebahasadaerah.streamlit.app/](https://uas-kecerdasanbuatan-translatebahasadaerah.streamlit.app/)
 
