@@ -18,8 +18,6 @@ Aplikasi sederhana ini dibuat untuk memenuhi Tugas Akhir mata kuliah Kecerdasan 
 
 # 👥 MEET THE TEAM
 
-**Project Akhir UAS Matakuliah Kecerdasan Buatan - Teknik Informatika**
-
 | Nama | NPM |
 |---|---|
 | Muhammad Arif Wicaksono | 2410631170034 |
