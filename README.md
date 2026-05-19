@@ -5,7 +5,7 @@
 <h1 align="center">🌿 SISTEM PENERJEMAH BAHASA DAERAH</h1>
 
 <p align="center">
-Aplikasi ini dirancang sebagai platform terpadu untuk pengolahan bahasa daerah (*Integrated Linguistic Tools*), yang mencakup penerjemahan multi-bahasa, analisis kelas kata (*POS Tagging*), serta transkripsi audio/video.
+Aplikasi sederhana ini dibuat untuk memenuhi Tugas Akhir mata kuliah Kecerdasan Buatan dengan fokus pada cabang pemrosesan bahasa alami atau <i>Natural Language Processing</i> (NLP). Sistem ini berfokus pada penerjemahan bahasa daerah.
 </p>
 
 <p align="center">
