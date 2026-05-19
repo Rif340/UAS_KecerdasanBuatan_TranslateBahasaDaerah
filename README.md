@@ -1,14 +1,15 @@
 # UAS Kecerdasan Buatan: Translate Bahasa Daerah (Integrated Linguistic Tools)
 
-[![Streamlit App](https://static.streamlit.io/badge_svg.svg)](https://uas-kecerdasanbuatan-translatebahasadaerah.streamlit.app)
+[![Streamlit App](https://static.streamlit.io/badge_svg.svg)](https://uas-kecerdasanbuatan-translatebahasadaerah.streamlit.app/)
 
-Project ini merupakan tugas akhir mata kuliah **Kecerdasan Buatan**. Aplikasi ini dirancang sebagai platform terpadu untuk pengolahan bahasa daerah (*Integrated Linguistic Tools*), yang mencakup penerjemahan multi-bahasa, analisis kelas kata (*POS Tagging*), serta transkripsi audio/video.
+**Project Akhir UAS Matakuliah Kecerdasan Buatan**
+Aplikasi ini dirancang sebagai platform terpadu untuk pengolahan bahasa daerah (*Integrated Linguistic Tools*), yang mencakup penerjemahan multi-bahasa, analisis kelas kata (*POS Tagging*), serta transkripsi audio/video.
 
 ## 👤 Identitas Pengembang
 * **Nama:** Muhammad Arif Wicaksono
 * **NPM:** 2410631170034
 * **Program Studi:** Teknik Informatika
-* **Tautan Web Aplikasi:** [https://uas-kecerdasanbuatan-translatebahasadaerah.streamlit.app](https://uas-kecerdasanbuatan-translatebahasadaerah.streamlit.app)
+* **Tautan Web Aplikasi:** [https://uas-kecerdasanbuatan-translatebahasadaerah.streamlit.app/](https://uas-kecerdasanbuatan-translatebahasadaerah.streamlit.app/)
 
 ---
 
@@ -34,8 +35,8 @@ Pastikan Anda sudah menginstal **Python 3.8 - 3.11** di komputer Anda.
 ### Langkah-langkah
 1. **Clone Repository**:
    ```bash
-   git clone https://github.com/arifk/UAS_kecerdasanBuatan_TranslateBahasaDaerah.git
-   cd UAS_kecerdasanBuatan_TranslateBahasaDaerah
+   git clone https://github.com/Rif340/UAS_KecerdasanBuatan_TranslateBahasaDaerah.git
+   cd UAS_KecerdasanBuatan_TranslateBahasaDaerah
    ```
 
 2. **Install Dependensi**:
