@@ -68,6 +68,16 @@ Aplikasi akan otomatis terbuka di browser Anda pada alamat `http://localhost:850
 
 ---
 
+# 💻 TECH STACK & TOOLS
+
+- **Python 3** (Bahasa Pemrograman Utama)
+- **Streamlit** (Framework Web UI)
+- **Pandas & Openpyxl** (Pemrosesan Data Excel)
+- **Transformers / PyTorch** (Machine Learning & NLP)
+- **Git & GitHub** (Version Control & Hosting)
+
+---
+
 # 📂 STRUKTUR DIREKTORI PROYEK
 
 ```text
