@@ -1,6 +1,19 @@
-# UAS Kecerdasan Buatan: Translate Bahasa Daerah (Integrated Linguistic Tools)
+<p align="center">
+  <img src="https://drive.google.com/uc?export=view&id=1C_2g1apCP8nK6sUstwAs04eQEbEg3s9s" width="100%">
+</p>
 
-[![Streamlit App](https://static.streamlit.io/badge_svg.svg)](https://uas-kecerdasanbuatan-translatebahasadaerah.streamlit.app/)
+<h1 align="center">🌿 SISTEM PENERJEMAH BAHASA DAERAH</h1>
+
+<p align="center">
+  Sistem berbasis website untuk mendukung digitalisasi,
+  monitoring, pengelolaan, dan pengembangan UMKM Desa.
+</p>
+
+<p align="center">
+  <a href="https://uas-kecerdasanbuatan-translatebahasadaerah.streamlit.app/">
+    <img src="https://img.shields.io/badge/LIVE%20DEMO-VISIT%20WEBSITE-2ea44f?style=for-the-badge&logo=googlechrome&logoColor=white">
+  </a>
+</p>
 
 **Project Akhir UAS Matakuliah Kecerdasan Buatan**
 Aplikasi ini dirancang sebagai platform terpadu untuk pengolahan bahasa daerah (*Integrated Linguistic Tools*), yang mencakup penerjemahan multi-bahasa, analisis kelas kata (*POS Tagging*), serta transkripsi audio/video.
