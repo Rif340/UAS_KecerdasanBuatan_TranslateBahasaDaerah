@@ -1,0 +1,9 @@
+data/
+dataset_opus/
+*.zip
+*.csv
+hasil_riset_nllb_bidirectional/
+translator_dua_arah_final/
+__pycache__/
+*.pyc
+.env
