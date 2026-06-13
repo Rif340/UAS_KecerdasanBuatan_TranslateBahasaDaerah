@@ -75,18 +75,18 @@ def build_dataframe(
 def clean_dataframe(df: pd.DataFrame) -> pd.DataFrame:
     """
     Terapkan pembersihan noise Wikipedia ke kedua kolom,
-    lalu buang baris yang mengandung karakter sisa '↑'.
+    lalu buang baris yang mengandung karakter sisa '↑' di ind_Latn (sesuai notebook).
     """
     df = df.copy()
     df["ind_Latn"] = df["ind_Latn"].apply(clean_wikipedia_noise)
     df["sun_Latn"] = df["sun_Latn"].apply(clean_wikipedia_noise)
 
-    # Buang baris yang mengandung karakter daftar pustaka '↑'
+    # Buang baris yang mengandung karakter daftar pustaka '↑' di ind_Latn (sesuai dengan notebook)
     df = df[~df["ind_Latn"].str.contains("↑", na=False)]
-    df = df[~df["sun_Latn"].str.contains("↑", na=False)]
 
-    # Buang baris kosong
-    df = df[(df["ind_Latn"].str.len() > 0) & (df["sun_Latn"].str.len() > 0)]
+    # Buang baris kosong / null agar menghasilkan tepat 5272 baris sesuai di paper UAS
+    df = df.dropna(subset=["ind_Latn", "sun_Latn"])
+    df = df[(df["ind_Latn"].str.strip() != "") & (df["sun_Latn"].str.strip() != "")]
     df = df.reset_index(drop=True)
 
     print(f"Jumlah baris setelah pembersihan: {len(df)}")
@@ -94,8 +94,8 @@ def clean_dataframe(df: pd.DataFrame) -> pd.DataFrame:
 
 
 def save_clean_csv(df: pd.DataFrame, path: str = CLEAN_CSV) -> None:
-    """Simpan DataFrame bersih ke file CSV."""
-    df.to_csv(path, index=False, encoding="utf-8")
+    """Simpan DataFrame bersih ke file CSV dengan encoding utf-8-sig agar karakter aksen terbaca rapi di Excel."""
+    df.to_csv(path, index=False, encoding="utf-8-sig")
     print(f"Dataset bersih disimpan di: {path}")
 
 
